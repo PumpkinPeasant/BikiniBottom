@@ -26,11 +26,12 @@ public class BikiniBottom
         MinecraftForge.EVENT_BUS.register(this);
     }
 
-    private void setup(final FMLCommonSetupEvent event)
-    {
+    private void setup(final FMLCommonSetupEvent event) {
+
     }
 
     private void doClientStuff(final FMLClientSetupEvent event) {
+
     }
     public static final ItemGroup TAB = new ItemGroup("bikinibottom") {
         @Override
