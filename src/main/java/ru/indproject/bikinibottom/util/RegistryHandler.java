@@ -16,4 +16,6 @@ public class RegistryHandler {
     }
 
     public static final RegistryObject<Item> SPATULA = ITEMS.register("spatula", ItemBase::new);
+
+    public static final RegistryObject<Item> PICKLE = ITEMS.register("pickle", ItemBase::new);
 }
