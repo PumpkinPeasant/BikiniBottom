@@ -25,6 +25,8 @@ public class RegistryHandler {
     //Items
     public static final RegistryObject<Item> SPATULA = ITEMS.register("spatula", ItemBase::new);
 
+    public static final RegistryObject<Item> PICKLE = ITEMS.register("pickle", ItemBase::new);
+
     // Blocks
     public static final RegistryObject<Block> PINEAPPLE_BLOCK = BLOCKS.register("pineapple_block", PineappleBlock::new);
     // Block Items
