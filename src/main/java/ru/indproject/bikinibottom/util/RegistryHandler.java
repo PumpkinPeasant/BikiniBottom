@@ -15,5 +15,5 @@ public class RegistryHandler {
         ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
     }
 
-    public static final RegistryObject<Item> SCAPULA = ITEMS.register("scapula", ItemBase::new);
+    public static final RegistryObject<Item> SPATULA = ITEMS.register("spatula", ItemBase::new);
 }
