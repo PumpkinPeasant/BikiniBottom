@@ -1,4 +1,4 @@
 {
   "item.bikinibottom.spatula": "Лопатка",
-  "item.bikinibottom.pickle" : "Огурец"
+  "itemgroup.bikinibottom": "БикиниБоттом"
 }
