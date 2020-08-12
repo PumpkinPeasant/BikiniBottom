@@ -1,41 +1,44 @@
+
 modLoader="javafml" #mandatory
 
-loaderVersion="[32,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+loaderVersion="[32,)"
 
 license="All rights reserved"
 
-issueTrackerURL="http://my.issue.tracker/" #optional
+issueTrackerURL="http://my.issue.tracker/"
 
-[[mods]] #mandatory
 
-modId="bikinibottom" #mandatory
+[[mods]]
 
-version="1.16.1-1.0.0" #mandatory
 
-displayName="[RU/EN] Bikini Bottom Mod" #mandatory
+modId="bikinibottom"
 
-updateJSONURL="http://myurl.me/" #optional
 
-displayURL="http://example.com/" #optional
+version="1.16.1-1.0.0"
 
-logoFile="examplemod.png" #optional
+displayName="BikiniBottom"
 
-credits="IND Project" #optional
+updateJSONURL="http://myurl.me/"
 
-authors="Love, Cheese and small house plants" #optional
+displayURL="http://indproject.ru"
 
-description='''That's just a simple testing mod. Have fun! '''
-# A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
+logoFile="examplemod.png"
+
+credits="Thanks for this example mod goes to Java"
+
+authors="indproject team"
+
+description="  "
 [[dependencies.examplemod]] #optional
-    # the modid of the dependency
+
     modId="forge" #mandatory
-    # Does this dependency have to exist - if not, ordering below must be specified
+
     mandatory=true #mandatory
-    # The version range of the dependency
+
     versionRange="[32,)" #mandatory
-    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+
     ordering="NONE"
-    # Side this dependency is applied on - BOTH, CLIENT or SERVER
+
     side="BOTH"
 # Here's another dependency
 [[dependencies.examplemod]]
