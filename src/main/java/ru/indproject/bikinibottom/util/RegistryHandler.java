@@ -11,11 +11,12 @@ import ru.indproject.bikinibottom.BikiniBottom;
 import ru.indproject.bikinibottom.blocks.BlockItemBase;
 import ru.indproject.bikinibottom.blocks.PineappleBlock;
 import ru.indproject.bikinibottom.items.ItemBase;
+import ru.indproject.bikinibottom.items.Pickle;
 
 public class RegistryHandler {
 
-    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, BikiniBottom.MOD_ID);
-    public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, BikiniBottom.MOD_ID);
+    private static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, BikiniBottom.MOD_ID);
+    private static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, BikiniBottom.MOD_ID);
 
 
     public static void init(){
@@ -25,10 +26,10 @@ public class RegistryHandler {
     //Items
     public static final RegistryObject<Item> SPATULA = ITEMS.register("spatula", ItemBase::new);
     public static final RegistryObject<Item> PINEAPPLE_SLICE = ITEMS.register("pineapple_slice", ItemBase::new);
-    public static final RegistryObject<Item> PICKLE = ITEMS.register("pickle", ItemBase::new);
+    private static final RegistryObject<Item> PICKLE = ITEMS.register("pickle", Pickle::new);
 
     // Blocks
-    public static final RegistryObject<Block> PINEAPPLE_BLOCK = BLOCKS.register("pineapple_block", PineappleBlock::new);
+    private static final RegistryObject<Block> PINEAPPLE_BLOCK = BLOCKS.register("pineapple_block", PineappleBlock::new);
     // Block Items
-    public static final RegistryObject<Item> PINEAPPLE_BLOCK_ITEM = ITEMS.register("pineapple_block_item", () -> new BlockItemBase(PINEAPPLE_BLOCK.get()));
+    private static final RegistryObject<Item> PINEAPPLE_BLOCK_ITEM = ITEMS.register("pineapple_block_item", () -> new BlockItemBase(PINEAPPLE_BLOCK.get()));
 }
