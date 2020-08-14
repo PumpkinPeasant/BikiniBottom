@@ -24,12 +24,18 @@ public class RegistryHandler {
         BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
     }
     //Items
-    public static final RegistryObject<Item> SPATULA = ITEMS.register("spatula", ItemBase::new);
     public static final RegistryObject<Item> PINEAPPLE_SLICE = ITEMS.register("pineapple_slice", ItemBase::new);
     private static final RegistryObject<Item> PICKLE = ITEMS.register("pickle", Pickle::new);
 
+    //Tools
+    public static final RegistryObject<Item> SPATULA = ITEMS.register("spatula", ItemBase::new);
+
+
     // Blocks
     private static final RegistryObject<Block> PINEAPPLE_BLOCK = BLOCKS.register("pineapple_block", PineappleBlock::new);
+    private static final RegistryObject<Block> PINEAPPLE_BLOCK_INSIDE = BLOCKS.register("pineapple_block_inside", PineappleBlock::new);
     // Block Items
     private static final RegistryObject<Item> PINEAPPLE_BLOCK_ITEM = ITEMS.register("pineapple_block_item", () -> new BlockItemBase(PINEAPPLE_BLOCK.get()));
+    private static final RegistryObject<Item> PINEAPPLE_BLOCK_INSIDE_ITEM = ITEMS.register("pineapple_block_inside_item", () -> new BlockItemBase(PINEAPPLE_BLOCK_INSIDE.get()));
+
 }

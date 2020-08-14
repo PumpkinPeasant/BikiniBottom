@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "xxx",
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "bikinibottom:pineapple_slice"
+    }
+  },
+  "result":
+  {
+    "item": "bikinibottom:pineapple_block_item",
+    "count": 1
+  }
+}
