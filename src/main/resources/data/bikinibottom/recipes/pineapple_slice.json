@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "bikinibottom:pineapple_block_item"
+    }
+  ],
+  "result":
+  {
+    "item": "bikinibottom:pineapple_slice",
+    "count": 9
+  }
+}
