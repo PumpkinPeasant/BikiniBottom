@@ -3,5 +3,7 @@
   "itemgroup.bikinibottom": "BikiniBottom",
   "block.bikinibottom.pineapple_block": "Pineapple block",
   "item.bikinibottom.pickle": "Pickle",
-  "item.bikinibottom.pineapple_slice": "Slice of pineapple"
+  "item.bikinibottom.pineapple_slice": "Slice of pineapple",
+  "item.bikinibottom.shell": "Shell",
+  "item.bikinibottom.shell_sword": "Shell sword"
 }

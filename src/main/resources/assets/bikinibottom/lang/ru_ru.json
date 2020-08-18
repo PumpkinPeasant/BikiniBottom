@@ -3,5 +3,7 @@
   "itemgroup.bikinibottom": "БикиниБоттом",
   "block.bikinibottom.pineapple_block": "Блок ананаса",
   "item.bikinibottom.pickle": "Огурец",
-  "item.bikinibottom.pineapple_slice": "Долька ананаса"
+  "item.bikinibottom.pineapple_slice": "Долька ананаса",
+  "item.bikinibottom.shell": "Ракушка",
+  "item.bikinibottom.shell_sword": "Ракушечный меч"
 }
