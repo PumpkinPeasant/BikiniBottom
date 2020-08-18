@@ -4,7 +4,7 @@ import net.minecraft.item.Food;
 import net.minecraft.item.Item;
 import ru.indproject.bikinibottom.BikiniBottom;
 
-public class Pickle extends Item {
+public class Pickle extends Item implements Canned {
     public Pickle() {
         super(new Item.Properties()
                     .group(BikiniBottom.TAB)
