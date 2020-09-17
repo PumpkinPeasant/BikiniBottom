@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "bikinibottom:block/stove" },
+    "facing=south": { "model": "bikinibottom:block/stove", "y":  180},
+    "facing=west": { "model": "bikinibottom:block/stove", "y":  270},
+    "facing=east": { "model": "bikinibottom:block/stove", "y":  90}
+  }
+}

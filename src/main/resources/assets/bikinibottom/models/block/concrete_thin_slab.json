@@ -1,0 +1,7 @@
+{
+  "parent": "bikinibottom:block/thin_slab",
+  "ambientocclusion": false,
+  "textures": {
+    "all": "minecraft:block/light_gray_concrete"
+  }
+}
